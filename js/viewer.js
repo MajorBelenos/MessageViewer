@@ -123,7 +123,7 @@ function afficher(messages) {
 			const date = new Date(msg.timestamp).toLocaleString();
 
 			let html = `
-				<div class="sender">${msg.senderName}</div>
+				<div class="sender">${msg.senderName}</div><div class="date">${date}</div>
 				<div>${msg.text || ""}</div>
 				`;
 
@@ -146,7 +146,7 @@ function afficher(messages) {
 				html += `</div>`;
 			}
 
-			html += `<div class="date">${date}</div>`;
+			//html += `<div class="date">${date}</div>`;
 
 			div.innerHTML = html;
 			
