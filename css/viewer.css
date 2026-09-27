@@ -1,0 +1,63 @@
+   body { font-family: Arial, sans-serif; background: #f4f4f4; font-size:25px;}
+
+
+  .media img { max-width: 200px; display: block; margin-top: 5px; }
+ 
+ .sender {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: white;
+  border-radius: 8px;
+  padding: 2px 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-size: 0.6em; color: #777;
+  display: flex;
+  gap: 4px;
+}  
+ 
+.date {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: white;
+  border-radius: 8px;
+  padding: 2px 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-size: 0.6em; color: #777;
+  display: flex;
+  gap: 4px;
+}  
+ 
+  .message {
+  position: relative;
+  background: white;
+  margin: 10px;
+  padding: 15px 10px 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.reactions {
+  position: absolute;
+  bottom: -8px;
+  right: 10px;
+  background: white;
+  border-radius: 20px;
+  padding: 2px 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-size: 14px;
+  display: flex;
+  gap: 4px;
+}  
+.reaction {
+  line-height: 1;
+}
+
+.reaction.heart {
+  color: red;
+}
+
+.message.lu {    background: #e0e0e0;    color: #777; margin: 5px;padding:0px;
+  width:15px; height:15px;display:inline-block; }
+  .message.lu DIV {display:none;}
